@@ -27,6 +27,8 @@ object Versions {
     const val rxKotlin = "2.4.0"
     const val rxAndroid = "2.1.1"
 
+    const val gson = "2.8.6"
+
     const val retrofit = "2.6.0"
     const val loggingInterceptor = "4.2.0"
 
@@ -73,6 +75,8 @@ object Libraries {
     const val rxJava = "io.reactivex.rxjava2:rxjava:${Versions.rxJava}"
     const val rxKotlin = "io.reactivex.rxjava2:rxkotlin:${Versions.rxKotlin}"
     const val rxAndroid = "io.reactivex.rxjava2:rxandroid:${Versions.rxAndroid}"
+
+    const val gson = "com.google.code.gson:gson:${Versions.gson}"
 
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     const val gsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"

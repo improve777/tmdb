@@ -42,4 +42,6 @@ dependencies {
     testImplementation(Libraries.junitJupiter)
     androidTestImplementation(Libraries.androidJunit)
     androidTestImplementation(Libraries.espresso)
+
+    implementation(Libraries.gson)
 }
