@@ -11,7 +11,7 @@ object Versions {
 
     const val navigation = "2.2.0-alpha03"
 
-    const val room = "2.2.0-rc01"
+    const val room = "2.2.5"
 
     const val material = "1.2.1"
 
