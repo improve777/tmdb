@@ -6,4 +6,5 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "trending")
 data class TrendingEntity(
     @PrimaryKey val id: Int,
+    val name: String,
 )
