@@ -13,7 +13,7 @@ object Versions {
 
     const val room = "2.2.0-rc01"
 
-    const val material = "1.0.0"
+    const val material = "1.2.1"
 
     const val ktx = "1.1.0"
 
