@@ -27,7 +27,7 @@ internal class TrendingEntityUnitTest {
     @Test
     fun writeTrendingUsingSpy() = runBlocking {
         val id = 82856
-        val trending = TrendingEntity(id)
+        val trending = TrendingEntity(id, "avatar")
 
         // 행위 테스트 방법
         // 1. answer 를 직접 생성
@@ -53,7 +53,7 @@ internal class TrendingEntityUnitTest {
     @Test
     fun writeTrendingUsingMock() = runBlocking {
         val id = 82856
-        val trending = TrendingEntity(id)
+        val trending = TrendingEntity(id, "avatar")
 
         mockDao.insert(trending)
         coVerify { mockDao.insert(trending) }
@@ -62,7 +62,8 @@ internal class TrendingEntityUnitTest {
     @Test
     fun readTrending() {
         val id = 82856
-        val trending = TrendingEntity(id)
+        val name = "avatar"
+        val trending = TrendingEntity(id, name)
 
         coEvery { mockDao.findById(id) } returns trending
 
@@ -70,6 +71,7 @@ internal class TrendingEntityUnitTest {
         runBlocking {
             mock = mockDao.findById(id)
             assertTrue(id == mock.id)
+            assertTrue(name == mock.name)
         }
     }
 }

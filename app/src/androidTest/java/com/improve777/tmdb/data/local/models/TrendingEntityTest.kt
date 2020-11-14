@@ -40,7 +40,7 @@ internal class TrendingEntityTest {
     @Throws(Exception::class)
     fun writeAndReadTrending() {
         val id = 82856
-        val trending = TrendingEntity(id)
+        val trending = TrendingEntity(id, "avatar")
 
         runBlocking {
             trendingDao.insert(trending)
