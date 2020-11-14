@@ -42,6 +42,7 @@ object Versions {
     const val junit = "5.7.0"
     const val androidJunit = "1.1.1"
     const val espresso = "3.2.0"
+    const val mockk = "1.10.2"
 
     const val kakao = "1.23.0"
 }
@@ -100,6 +101,7 @@ object Libraries {
     const val junitJupiter = "org.junit.jupiter:junit-jupiter-api:${Versions.junit}"
     const val androidJunit = "androidx.test.ext:junit:${Versions.androidJunit}"
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
+    const val mockk = "io.mockk:mockk:${Versions.mockk}"
 
     const val kakaoUserMgmt = "com.kakao.sdk:usermgmt:${Versions.kakao}"
     const val kakaoLink = "com.kakao.sdk:kakaolink:${Versions.kakao}"

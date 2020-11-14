@@ -42,6 +42,7 @@ dependencies {
     implementation(Libraries.constraintLayout)
 
     testImplementation(Libraries.junitJupiter)
+    testImplementation(Libraries.mockk)
     androidTestImplementation(Libraries.androidJunit)
     androidTestImplementation(Libraries.espresso)
 
