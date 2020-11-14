@@ -8,6 +8,7 @@ object Versions {
     const val kotlin = "1.4.10"
     const val appcompat = "1.2.0"
     const val lifecycleExt = "2.1.0"
+    const val coroutine = "1.4.1"
 
     const val navigation = "2.2.0-alpha03"
 
@@ -47,6 +48,8 @@ object Versions {
 
 object Libraries {
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
+    const val coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutine}"
+    const val coroutineAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutine}"
 
     const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
 
