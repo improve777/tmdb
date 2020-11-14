@@ -44,4 +44,9 @@ dependencies {
     androidTestImplementation(Libraries.espresso)
 
     implementation(Libraries.gson)
+
+    implementation(Libraries.room)
+    implementation(Libraries.roomKtx)
+    kapt(Libraries.roomCompiler)
+    testImplementation(Libraries.roomTest)
 }
