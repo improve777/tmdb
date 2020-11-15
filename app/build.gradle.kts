@@ -57,5 +57,5 @@ dependencies {
     implementation(Libraries.room)
     implementation(Libraries.roomKtx)
     kapt(Libraries.roomCompiler)
-    testImplementation(Libraries.roomTest)
+    androidTestImplementation(Libraries.roomTest)
 }
